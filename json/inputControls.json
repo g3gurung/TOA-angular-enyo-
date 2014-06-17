@@ -1,0 +1,63 @@
+[
+    {
+        "q_id": "1",
+        "question": "I am a student",
+        "type": "checkbox",
+        "checkboxes": [
+            "Yes", "No"
+        ]
+    },
+    {
+      "q_id": "2",
+      "question": "I live in the city of Leuven, Belgium",
+      "type": "checkbox",
+      "checkboxes": [
+          "Yes", "No"
+      ]
+    },
+    {
+        "q_id": "3",
+        "question": "I go to Asian restaurants and take away",
+        "type": "slider",
+        "slider_info": {
+            "left": "never",
+            "right": "always"
+        }
+    },
+    {
+        "q_id": "4",
+        "question": "Dish prices in Taste of Asia are",
+        "type": "slider",
+        "slider_info": {
+            "left": "very cheap",
+            "right": "very expensive"
+        }
+    },
+    {
+        "q_id": "5",
+        "question": "Food quality in Taste of Asia is",
+        "type": "slider",
+        "slider_info": {
+            "left": "very bad",
+            "right": "excellent"
+        }
+    },
+    {
+        "q_id": "6",
+        "question": "Service provided by Taste of Asia is",
+        "type": "slider",
+        "slider_info": {
+            "left": "very bad",
+            "right": "excellent"
+        }
+    },
+    {
+        "q_id": "7",
+        "question": "I make reservation before going to Taste of Asia",
+        "type": "slider",
+        "slider_info": {
+            "left": "never",
+            "right": "always"
+        }
+    }
+]

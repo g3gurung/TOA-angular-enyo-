@@ -1,0 +1,33 @@
+<div class="menu_wrapper">
+    <div class="container">
+        <div class="accordion" id="myAccordion">
+            <div class="accordion-group" ng-repeat="items in menu.DU.menu">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#myAccordion" href="#{{items.id}}" onclick="return false;">
+                        {{items.item}} <i class="indicator glyphicon glyphicon-chevron-right  pull-right"></i>
+                    </a>
+                </div>
+                <div id="{{items.id}}" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul>
+                            <li ng-repeat="subItem in items.sub_item">
+                                <span class="sub-item-title">{{subItem.title}}</span><span class="text-muted"> {{subItem.info}}</span>
+                                <span class="price text-muted">{{subItem.price}}</span>
+                                <strong class="sub-item-sub-title">{{subItem.descr_title}}</strong>
+                                <p>{{subItem.description}}</p>
+                                <!-- For some menu item-->
+                                <strong class="sub-item-sub-title">{{subItem.anoth_descr_title}}</strong>
+                                <p>{{subItem.anoth_description}}</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    if(/(iPad|iPhone|iPod)/g.test( navigator.userAgent )){
+        $('.menu_wrapper').css('background-attachment', 'scroll');
+    };
+</script>

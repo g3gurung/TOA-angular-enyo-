@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><div class="logo"><img src="images/logo.png" /></div></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="menu-item" ng-class="{active: activePath==='/'+language || activePath === '/'}"><a ng-href="#/{{language}}">{{nav[language][0]}}</a></li>
+                    <li class="dropdown" ng-class="{active: activePath==='/'+language+'/menu' || activePath==='/'+language+'/sushiMenu'}">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Menu</a>
+                        <ul class="dropdown-menu" id="lang">
+                            <li style="border-bottom: 1px dotted #8B8B8B"><a href="" ng-href="#/{{language}}/menu">{{nav[language][1]}}</a></li>
+                            <li><a href="" ng-href="#/{{language}}/sushiMenu">{{nav[language][2]}}</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" ng-class="{active: activePath==='/'+language+'/reservation'}"><a ng-href="#/{{language}}/reservation">{{nav[language][3]}}</a></li>
+                    <li class="menu-item" ng-class="{active: activePath==='/'+language+'/gallery'}"><a ng-href="#/{{language}}/gallery">{{nav[language][4]}}</a></li>
+                    <li class="menu-item-contact"><a href="">{{nav[language][5]}}</a></li>
+                    <li class="menu-item" ng-class="{active: activePath==='/feedback'}"><a ng-href="#/{{language}}/feedback">Feedback</a></li>
+                    <!--
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Web Master<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </li>-->
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown"><strong>{{language}}</strong> <img src="images/{{language}}.png" /><b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="lang">
+                            <li><a href="" ng-click="setLan()">{{anotherlanguage}} <img src="images/{{anotherlanguage}}.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

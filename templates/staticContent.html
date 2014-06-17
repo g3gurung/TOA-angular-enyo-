@@ -1,0 +1,117 @@
+<div class="row featurette">
+    <div class="col-md-5">
+        <img id="s_m_1" class="featurette-image img-responsive student-menu-images" src="images/student_boat_menu.jpg" alt="Generic placeholder image">
+        <img id="s_m_2" class="featurette-image img-responsive student-menu-images" src="images/student_menu_sumashi_soup.jpg" alt="Generic placeholder image">
+        <img id="s_m_3" class="featurette-image img-responsive student-menu-images" src="images/student_menu_tom_yam_gung.jpg" alt="Generic placeholder image">
+    </div>
+    <script>
+    var studentOfferCounter = 0;
+    var counterMax = $('.student-menu-images').length;
+    
+    setInterval( function(){
+        studentOfferCounter ++;
+        for(var i=0; i<counterMax; i++){
+            if(studentOfferCounter !== i) {
+                $('.student-menu-images').hide();
+            }
+        }
+            $("#s_m_"+studentOfferCounter).show();
+            
+        if (studentOfferCounter >= counterMax) {
+            studentOfferCounter = 0;
+        }
+    },3000);
+
+    </script>
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{staticContent[language][0].title.bright}} <span class="text-muted">{{staticContent[language][0].title.muted}}</span></h2>
+        <p class="lead">
+            <strong>{{staticContent[language][0].content_start}} </strong>{{staticContent[language][0].content_middle}}<strong> {{staticContent[language][0].content_middle_bold}} </strong>
+            {{staticContent[language][0].content_price}}<strong> {{staticContent[language][0].price}}. </strong>{{staticContent[language][0].content_end}}<strong> {{staticContent[language][0].content_end_bold}}</strong>
+        </p>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{staticContent[language][1].title.bright}} <span class="text-muted">{{staticContent[language][1].title.muted}}</span></h2>
+        <p class="lead">
+            {{staticContent[language][1].content}}
+        <p><a class="btn btn-lg btn-primary" ng-href="#/{{language}}/reservation" role="button">{{staticContent[language][1].button}}</a></p>
+        </p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="images/serving.png" alt="Generic placeholder image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="images/sushi.png" alt="Generic placeholder image">
+    </div>
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{staticContent[language][2].title.bright}} <span class="text-muted">{{staticContent[language][2].title.muted}}</span></h2>
+        <p class="lead">
+            {{staticContent[language][2].content}}<strong>{{staticContent[language][2].strong}}</strong>{{staticContent[language][2].content_rem}}
+        </p>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading contact">{{staticContent[language][3].title.bright}} <span class="text-muted">{{staticContent[language][3].title.muted}}</span></h2>
+        <div class="table-responsive">
+            <table class="table table-hover text-center">
+                <tr>
+                    <th class="text-center" colspan="2">{{staticContent[language][3].content.hours.title}}</th>
+                </tr>
+                <tr>
+                    <td>{{staticContent[language][3].content.hours.days.weekdays[0]}}</td>
+                    <td>{{staticContent[language][3].content.hours.days.weekdays[1]}}</td>
+                </tr>
+                <tr>
+                    <td>{{staticContent[language][3].content.hours.days.weekends[0]}}</td>
+                    <td>{{staticContent[language][3].content.hours.days.weekends[1]}}</td>
+                </tr>
+            </table>
+        </div>
+        <p class="lead">
+            <strong>{{staticContent[language][3].content.address}}</strong><br/>
+            <img src="images/{{staticContent[language][3].content.email[1]}}"/>{{staticContent[language][3].content.email[0]}}<br/>
+            <img src="images/{{staticContent[language][3].content.phone[1]}}"/>{{staticContent[language][3].content.phone[0]}}
+        </p>
+    </div>
+    <div class="col-md-5">
+        <google-map center="map.center" zoom="map.zoom" draggable="true">
+            <marker coords='marker.coords'>
+                <window show='infoWin.show'
+                    templateUrl='infoWin.templateUrl'>
+                </window>
+            </marker>
+        </google-map>
+        <!--
+        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        -->
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+
+<!-- FOOTER -->
+<footer>
+    <img id="toTop" src="images/top.png" alt="to top" title="goto top"/>
+    <p>
+        &copy; 2014 TOA 
+        &middot; <a href="https://www.facebook.com/pages/Taste-of-Asia/150322285028024" target="_blank"><img src="images/facebook.png" alt="TOA in facebook"/></a> 
+        &middot; <a href="https://play.google.com/store/apps/details?id=com.appstar.p9347GF&hl=en" target="_blank"><img src="images/play_store.png" alt="TOA in google play store"/></a>
+        &middot; <a href="https://itunes.apple.com/TR/app/id814477238" target="_blank"><img src="images/app_store.png" alt="TOA in apple app store"/></a>
+    </p>
+    <a href="http://fi.linkedin.com/pub/prataksha-gurung/66/4a7/758" target="_blank" class="pull-right text-muted">Webmaster: <strong>Prataksha Gurung</strong></a>
+</footer>

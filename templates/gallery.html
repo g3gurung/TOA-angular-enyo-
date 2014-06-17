@@ -1,0 +1,17 @@
+<div class="gallery_wrapper">
+    <div class="container">
+        <div class="jumbotron">
+            <div class="gallery row">
+            <div class="image col-lg-2 col-md-3 col-sm-3 col-xs-4 text-center" ng-repeat="i in []| range:counter">
+                <img src="images/thumbnails/m_{{items[i-1].image}}" id='{{i}}' ng-click="viewImage(i-1)">
+            </div>
+            </div>
+            <a href="" ng-click="moreImage()">More Images</a>
+        </div>
+    </div>
+</div>
+<script>
+    if(/(iPad|iPhone|iPod)/g.test( navigator.userAgent )){
+        $('.gallery_wrapper').css('background-attachment', 'scroll');
+    };
+</script>

@@ -1,0 +1,1267 @@
+{
+    "author": "Prataksha Gurung",
+    "EN": {
+        "menu": [
+            {
+                "item": "Appetizer",
+                "id": "1",
+                "sub_item": [
+                    {
+                        "title": "Mix Dimsum(6 pieces) / Mix Dimsum(8 pieces)",
+                        "description": "Chicken, Scampi, Pork",
+                        "price": "(€5,00) / (€6,00)"
+                    },
+                    {
+                        "title": "Momo(4 pieces) / Momo(8 pieces)",
+                        "description": "Steamed puff pastry, stuffed with minced meat and fresh herbs",
+                        "price": "(€4,50) / (€6,00)"
+                    },
+                    {
+                        "title": "Samosa",
+                        "description": "Deep fried puff pastry stuffed with mixed vegetables",
+                        "price": "(€4,40)"
+                    },
+                    {
+                        "title": "Vegetarische Mini Loempias",
+                        "description": "Deep fried vegetarian spring rolls",
+                        "price": "(€4,40)"
+                    },
+                    {
+                        "title": "Mini Loempia met kip",
+                        "description": "Deep fried spring rolls of chicken and vegetables",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Satay Gai",
+                        "description": "Chicken skewer with peanut sauce",
+                        "price": "(€5,30)"
+                    },
+                    {
+                        "title": "Chicken Lolli pop",
+                        "description": "Deep fried chicken drum sticks",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Eda mame",
+                        "description": "light steamed soya beans with salt",
+                        "price": "(€4,20)"
+                    }
+                ]
+            },
+            {
+                "item": "Soup",
+                "id": "2",
+                "sub_item": [
+                    {
+                        "title": "Vegetable Soup",
+                        "description": "Tofu with various vegetables",
+                        "price": "(€3,75)"
+                    },
+                    {
+                        "title": "Wan Tan Soup",
+                        "description": "Meat dumpling 'chicken and pork minced meat' and various vegetable",
+                        "price": "(€4,25)"
+                    },
+                    {
+                        "title": "Tom Yam Thai",
+                        "description": "Lemon soup with chicken, kha (thai ginger), coriander, mushrooms and lemon grass",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Tom Yam Goong",
+                        "description": "Prawn, kha 'Thai ginger', various vegetable and lemon grass",
+                        "price": "(€4,80)"
+                    },
+                    {
+                        "title": "Tom Kha Gai",
+                        "description": "Chicken, kha 'Thai ginger', various vegetables and coconut milk",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Thukpa(Small) / Thukpa(Large)",
+                        "description": "Tibeten noodle soup with chicken and various vegetables",
+                        "price": "(€4,50) / (€6,85)"
+                    }
+                ]
+            },
+            {
+                "item": "Thai Salads",
+                "id": "3",
+                "sub_item": [
+                    {
+                        "title": "Yam Nua",
+                        "description": "Beef salad with various vegetables 'tomato, onion, capsicum, carrot, coriander' and lime juice",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Yam Gai",
+                        "description": "Chicken with various vegetables 'tomato, onion, capsicum, carrot, cucumber, coriander' and lime juice",
+                        "price": "(€7,30)"
+                    },
+                    {
+                        "title": "Yam Wund Sen",
+                        "description": "Rice noodle with meatball, prawn, various vegetable 'tomato, capsicum, carrot, cucumber, coriander, onion' and limejuice",
+                        "price": "(€8,00)"
+                    },
+                    {
+                        "title": "Malako Tam",
+                        "description": "Papaya with prawn capsicum, tomato, cucumber, onion, carrot, coriander, and garlic",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Mango Salad",
+                        "description": "Mango with apple, peanut, carrot, cucumber, capsicum, onion, coriander, sweet and sour sauce",
+                        "price": "(€6,90)"
+                    }
+                ]
+            },
+            {
+                "item": "Main Cources",
+                "id": "4",
+                "sub_item": [
+                    {
+                        "title": "Nazogi",
+                        "description": "Crispy chicken with various vegetables and eastern sauce",
+                        "price": "(€9,45)"
+                    },
+                    {
+                        "title": "Crispy Chicken",
+                        "description": "Sweet & sour sauce: apple, pineapple, bamboo shoots, bell pepper, carrot and onion, oyster or peanut sauce: broccoli, zucchini, onion, bamboo shoots, mushrooms and carrots",
+                        "price": "(€10,40)"
+                    },
+                    {
+                        "title": "Cirpy Duck",
+                        "description": "Sweet & sour sauce: appel pineappel, bamboo, carrot, capsicum and onion. Oyster of penut sauce: broccoli, bamboo, carrot, mushroom, zucchini and onion",
+                        "price": "(€11,20)"
+                    },
+                    {
+                        "title": "Chef Menu",
+                        "description": "Crispy duk, prawn, chicken beef and various vegetables with ayster saus",
+                        "price": "(€26,00)",
+                        "info": "Special menu for 2 persons"
+                    },
+                    {
+                        "title": "Teriyaki Duck/Chicken",
+                        "description": "Duck or Chicken with various fresh vegetables in Japanese teriyaki sauce, choose between fried rice or noodles",
+                        "price": "(€16,40)"
+                    }
+                ]
+            },
+            {
+                "item": "Thai Dishes",
+                "id": "5",
+                "sub_item": [
+                    {
+                        "title": "Kuang Tung Phad",
+                        "description": "Soi sam 'Thai spinach', broccoli, soya beans, various vegetables, garlic and ginger with peanut or oyster sauce",
+                        "price": "(€8,50)"
+                    },
+                    {
+                        "title": "Tohu Phad Pak",
+                        "description": "Tofu with broccoli, soya beans, various vegetables, ginger and garlic made in peanut of oyster sauce",
+                        "price": "(€9,00)"
+                    },
+                    {
+                        "title": "Nua Phad Gra Prau",
+                        "description": "Beef with various vegetables and holapa 'Thai basilicum'",
+                        "price": "(€10,00)"
+                    },
+                    {
+                        "title": "Gai Phad Gra Prau",
+                        "description": "Chicken with various vegetable and holapa 'Thai basilicum'",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gai Phad Khing",
+                        "description": "Chicken with various vegetable and cashewnut",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Kha Phad Khing",
+                        "description": "Lamb with various vegetable and cashew nut",
+                        "price": "(€10,20)"
+                    },
+                    {
+                        "title": "Pla Phad Khing",
+                        "description": "Lamb with various vegetable and cashew nut",
+                        "price": "(€9,60)"
+                    },
+                    {
+                        "title": "King Prawn",
+                        "description": "Prawn with various vegetables and holapa 'Thai basilicum'",
+                        "price": "(€13,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Thai Curries",
+                "id": "6",
+                "sub_item": [
+                    {
+                        "title": "Gang Gai",
+                        "description": "Chicken with red curry with various vegetables broccoli, bamboo sprouts, aubergine, baby corn, capsicum and zucchini in coconut milk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gang Khow Wahn Gai",
+                        "description": "Chicken with green curry paste, various vegetable, eggplant, bamboo sprouts and pepperoni made in coconut millk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Panang Gai",
+                        "description": "Chicken with panang curry paste, various vegetables peanuts and holapa 'Thai basilicum' made in coconut milk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gang Khow Wahn Gung",
+                        "description": "Prawn with green curry paste and various vegetable, eggplant, bamboo sprouts made in coconut milk",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Gang Nua",
+                        "description": "Beef with red curry paste, various vegetable, pepperoni and bamboo sprout made in coconut milk",
+                        "price": "(€9,80)"
+                    },
+                    {
+                        "title": "Panang Nua",
+                        "description": "Beef with panang curry paste, various vegetables, peanuts and holapa make in coconut milk",
+                        "price": "(€9,80)"
+                    },
+                    {
+                        "title": "The Vegetabke Curry",
+                        "description": "Various vegetable such as broccoli, bamboo sprout, eggplant, baby corn, capsicum, pepperoni and zucchini made in coconut milk",
+                        "price": "(€9,00)"
+                    },
+                    {
+                        "title": "Gaen Massaman: Chicken / Beef or Lamb / Prawn",
+                        "description": "Mild aromatic curry with capsicum, carrots, potato, onion and peanuts",
+                        "price": "(€9,80) / (€10,80) / (€13,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Asian Ribs",
+                "id": "7",
+                "sub_item": [
+                    {
+                        "title": "Natural without any saouce",
+                        "price": "(€14,00)"
+                    },
+                    {
+                        "title": "Hot and Spicy sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Sweet and Chilly sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Barbecque sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Honey sauce",
+                        "price": "(€15,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Nepalese/Indian",
+                "id": "8",
+                "sub_item": [
+                    {
+                        "title": "Chicken Masala",
+                        "description": "Tender pieces of chicken with onion, green chilli and cashew nut made in masala sauce",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Scampi or Prawn Masala",
+                        "description": "Prawn with onion, green chilli and cashew nut made in masala sauce",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Vis Curry",
+                        "description": "Salmon with onion, tomatoes, coriander, pepper, lemon made in curry sauce",
+                        "price": "(€12,50)"
+                    },
+                    {
+                        "title": "Lamb Curry",
+                        "description": "Tender lamb pieces cooked in tomato sauce with onion, garlic, ginger and special curry spices",
+                        "price": "(€10,20)"
+                    },
+                    {
+                        "title": "Vegetable Curry",
+                        "description": "Various vegetables cooked in Nepalese style",
+                        "price": "(€8,80)"
+                    },
+                    {
+                        "title": "Palak Paneer",
+                        "description": "Spinach with onion, garlic, tomato, chillies made in Indian spices",
+                        "price": "(€9,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wok",
+                "id": "9",
+                "sub_item": [
+                    {
+                        "title": "Vegetables",
+                        "description": "All woks are cooked with various vegetables and sauce made by the chef. choose between rice or noodles, if you like spicy don't forget to tell",
+                        "price": "(€8,30)"
+                    },
+                    {
+                        "title": "Pork Meat",
+                        "description": "All woks are cooked with various vegetables and sauce made by the chef. choose between rice or noodles, if you like spicy don't forget to tell",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Chicken",
+                        "description": "All woks are cooked with various vegetables and sauce made by the chef. choose between rice or noodles, if you like spicy don't forget to tell",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Prawn",
+                        "description": "All woks are cooked with various vegetables and sauce made by the chef. choose between rice or noodles, if you like spicy don't forget to tell",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Beef",
+                        "description": "All woks are cooked with various vegetables and sauce made by the chef. choose between rice or noodles, if you like spicy don't forget to tell",
+                        "price": "(€9,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Dessert",
+                "id": "10",
+                "sub_item": [
+                    {
+                        "title": "Tempura Pineapple",
+                        "description": "Fried pineapple with vanilla ice-cream and honey",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Honey Banana",
+                        "description": "Fried banana with vanilla ice-cream and honey",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Tempura Ice cream",
+                        "description": "Fried ice-cream with chocolate sauce",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Japanese Ice Cream",
+                        "description": "Three ball of ice-cream vanilla, green tea and black sesame",
+                        "price": "(€6,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Soft Drinks",
+                "id": "11",
+                "sub_item": [
+                    {
+                        "title": "Coca - cola",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Coca - cola light, zero",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Fanta",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Ice Tea",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Schweppes Tonic / Agrum",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Appelsap",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Appelsiensap",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Apple Kersen",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid ACE MultiVit.",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Fristi",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Chaudfontaine Bruis 25cl",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 25cl",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Chaudfontiane Bruis 50cl",
+                        "price": "(€4,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 50cl",
+                        "price": "(€4,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Bruis 1ltr",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 1ltr",
+                        "price": "(€7,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Hot Drinks",
+                "id": "12",
+                "sub_item": [
+                    {
+                        "title": "Coffee",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Tea",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Jasmine Tea",
+                        "price": "(€2,60)"
+                    },
+                    {
+                        "title": "Japanese Green Tea",
+                        "price": "(€2,60)"
+                    },
+                    {
+                        "title": "Nepalese Tea with herbs",
+                        "price": "(€2,80)"
+                    }
+                ]
+            },
+            {
+                "item": "Healthy Drinks",
+                "id": "13",
+                "sub_item": [
+                    {
+                        "title": "Tao hydration",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao energy",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao vitality",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao serenity",
+                        "price": "(€2,20)"
+                    }
+                ]
+            },
+            {
+                "item": "Beers",
+                "id": "14",
+                "sub_item": [
+                    {
+                        "title": "Carlsberg",
+                        "price": "(€2,80)"
+                    },
+                    {
+                        "title": "Beer",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Duvel",
+                        "price": "(€3,40)"
+                    },
+                    {
+                        "title": "Leffe Blond",
+                        "price": "(€3,40)"
+                    },
+                    {
+                        "title": "Chimay Blauw 'donker'",
+                        "price": "(€3,60)"
+                    },
+                    {
+                        "title": "Karmeliet",
+                        "price": "(€3,50)"
+                    },
+                    {
+                        "title": "Kriek Belle Vue La",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Westmalle Tripel",
+                        "price": "(€3,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Asian Beers",
+                "id": "15",
+                "sub_item": [
+                    {
+                        "title": "Japanese 'Ashai'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Thaise 'Singha'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Chinese 'Tsingtao'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Philippine 'Red Horse'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Korean 'Hite'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Vietnaam 'Halida'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Indian 'King-Fisher'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Nepalese 'Gorkha'",
+                        "price": "(€3,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wines",
+                "id": "16",
+                "sub_item": [
+                    {
+                        "title": "House Red Wine",
+                        "description": "Granacha Terrai Tinto 75cl 2012 SC ----Spanje",
+                        "price": "Glass(€3,30) / Quarter(€5,70) / Half(€11,00) / Bottle(€16,00)"
+                    },
+                    {
+                        "title": "House White Wine",
+                        "description": "Granacha Terrai Tinto 75cl 2012 SC ----Spanje",
+                        "price": "Glass(€3,30) / Quarter(€5,70) / Half(€11,00) / Bottle(€16,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Exclusive Wines",
+                "id": "17",
+                "sub_item": [
+                    {
+                        "title": "Exclusive Red Wine",
+                        "description": "Kleine Rust Rood 2012 'South Africa'",
+                        "price": "Per Bottle(€20,00)"
+                    },
+                    {
+                        "title": "Exclusive Red Wine",
+                        "description": "Cabernet Saucugnon Classic Casas Patronales 2008 'Chile'",
+                        "price": "Per Bottle(€20,50)"
+                    },
+                    {
+                        "title": "Exclusive White Wine",
+                        "description": "Kleine Rust wit 2013 'South Africa'",
+                        "price": "Per Bottle(€20,00)"
+                    },
+                    {
+                        "title": "Exclusive White Wine",
+                        "description": "Chardonnay Classic Casas Paronales 2008 'Chile'",
+                        "price": "Per Bottle(€20,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Cava",
+                "id": "18",
+                "sub_item": [
+                    {
+                        "title": "Glass",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Bottle",
+                        "price": "(€21,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wok To Go",
+                "id": "19",
+                "sub_item": [
+                    {
+                        "title": "Wok To Go Veg",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Wok To Go Pork",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Wok To Go Chicken",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Wok To Go Beef",
+                        "price": "(€6,00)"
+                    }
+                ]
+            }
+        ]
+    },
+    "DU": {
+        "menu": [
+            {
+                "item": "Voorgerechten",
+                "id": "1",
+                "sub_item": [
+                    {
+                        "title": "Mix Dimsum(6 pieces) / Mix Dimsum(8 pieces)",
+                        "description": "Kip, Scampi, Varkens",
+                        "price": "(€5,00) / (€6,00)"
+                    },
+                    {
+                        "title": "Momo(4 pieces) / Momo(8 pieces)",
+                        "description": "Gestoomde deeg gevuld met gehakt vlees en vers herbs",
+                        "price": "(€4,50) / (€6,50)"
+                    },
+                    {
+                        "title": "Samosa",
+                        "description": "Gefrituurd deeg gevuld met een mix van groeten",
+                        "price": "(€4,40)"
+                    },
+                    {
+                        "title": "Vegetarische Mini Loempias",
+                        "description": "Gefituurd vegetarische lompias",
+                        "price": "(€4,40)"
+                    },
+                    {
+                        "title": "Mini Loempia met kip",
+                        "description": "Gefrituurde kip en groenten loempia",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Satay Gai",
+                        "description": "Kippen brochette met pinda saus",
+                        "price": "(€5,30)"
+                    },
+                    {
+                        "title": "Chicken Lolli pop",
+                        "description": "Gefrituurde kippen vleugels",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Eda mame",
+                        "description": "Licht gestoomde sojabonen met zout",
+                        "price": "(€4,20)"
+                    }
+                ]
+            },
+            {
+                "item": "Soep",
+                "id": "2",
+                "sub_item": [
+                    {
+                        "title": "Vegetable Soup",
+                        "description": "Tofu met diverse groenten",
+                        "price": "(€3,75)"
+                    },
+                    {
+                        "title": "Wan Tan Soup",
+                        "description": "Vlees dumpling 'kip en varken deegwaat met gehakt' en diverse groenten",
+                        "price": "(€4,25)"
+                    },
+                    {
+                        "title": "Tom Yam Thai",
+                        "description": "Citroen soep met kip, kha (thai gember), koriander, champignons (en citroen)",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Tom Yam Goong",
+                        "description": "Scampi, kha 'thaise gember', diverse groenten en limoen gras",
+                        "price": "(€4,80)"
+                    },
+                    {
+                        "title": "Tom Kha Gai",
+                        "description": "Kip, kha 'thaise gember', diverse groenten en kokosmelk",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Thukpa(Small) / Thukpa(Large)",
+                        "description": "Tibetaanse noedelsoep met kip en diverse groenten",
+                        "price": "(€4,50) / (€6,85)"
+                    }
+                ]
+            },
+            {
+                "item": "Thaise Salades",
+                "id": "3",
+                "sub_item": [
+                    {
+                        "title": "Yam Nua",
+                        "description": "Rund salade met diverse groenten 'tomaten, uin, paprika, komkomer, wortel, koriander' en limoensap",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Yam Gai",
+                        "description": "Thaise kip met diverse groenten 'tomaten, uin, paprika, wortel, komkomer, wortel, koriander' en limoen sap",
+                        "price": "(€7,30)"
+                    },
+                    {
+                        "title": "Yam Wund Sen",
+                        "description": "Rice nodel met vlees ballaetjes, scampi, diverse groenten 'tomaten, paprika, wortel, komkomer, uin, koriander' en limoensap",
+                        "price": "(€8,00)"
+                    },
+                    {
+                        "title": "Malako Tam",
+                        "description": "Papaja met scampi, pindanoten, paprika, wortel, tomaten, komkomer, paprika, uin, look en koriander",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Mango Salad",
+                        "description": "Mango met appel, wortel, kumkumer, uin, paprika, pindanoten, koriander, en zoetzuur saus",
+                        "price": "(€6,90)"
+                    }
+                ]
+            },
+            {
+                "item": "Main Cources",
+                "id": "4",
+                "sub_item": [
+                    {
+                        "title": "Nazogi",
+                        "description": "Krokante kip met diverse groentn en oester saus",
+                        "price": "(€9,45)"
+                    },
+                    {
+                        "title": "Crispy Chicken",
+                        "description": "Keuuze uit 3 sauzen / chose between 3 sauce zoetzure saus: appel, ananas, bamboescheuten, paprika, wortel en ui, oester of pinda saus: broccoli, courgette, ui, bamboescheuten, champignons en wortel",
+                        "price": "(€10,40)"
+                    },
+                    {
+                        "title": "Cirpy Duck",
+                        "description": "Zoetzure saus: appel ananas, bamboesheuten, paprika, wortel en ui. Oester of pinda saus: broccoli, courgetten, ui, bamboescheuten, champignons en wortel",
+                        "price": "(€11,20)"
+                    },
+                    {
+                        "title": "Chef Menu",
+                        "description": "Knokant eend, scampi, rundvlees, kip en deverse groenten met oester saus",
+                        "price": "(€26,00)",
+                        "info": "Speciaal menu voor 2 personen"
+                    },
+                    {
+                        "title": "Teriyaki Eend/Kip",
+                        "description": "Eend of Kip met verse verschillende groenten in Japanese teriyaki sause ----keuze uit gebaken rijst of noodle",
+                        "price": "(€16,40)"
+                    }
+                ]
+            },
+            {
+                "item": "Thaise Gerechten",
+                "id": "5",
+                "sub_item": [
+                    {
+                        "title": "Kuang Tung Phad",
+                        "description": "Soi Sam 'thaise spinazie', broccoli, soja bonen, diverse groenten, look en gember met pinda of oester saus",
+                        "price": "(€8,50)"
+                    },
+                    {
+                        "title": "Tohu Phad Pak",
+                        "description": "Tofu met broccoli, soja bonen, diverse groenten, gember en look gemaakt in pinda of oester saus",
+                        "price": "(€9,00)"
+                    },
+                    {
+                        "title": "Nua Phad Gra Prau",
+                        "description": "Rund vlees met diverse groenten en holapa 'thaise basilium'",
+                        "price": "(€10,00)"
+                    },
+                    {
+                        "title": "Gai Phad Gra Prau",
+                        "description": "Kip met diverse groenten en holapa 'thaise basilicum'",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gai Phad Khing",
+                        "description": "Kip met diverse groenten en cashewnoten",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Kha Phad Khing",
+                        "description": "Lams met diverse groenten en cashewnoten",
+                        "price": "(€10,20)"
+                    },
+                    {
+                        "title": "Pla Phad Khing",
+                        "description": "Krokant vis filet met diverse groenten en cashewnoten",
+                        "price": "(€9,60)"
+                    },
+                    {
+                        "title": "King Prawn",
+                        "description": "Scampi met diverse groenten en holapa 'thaise basilicum'",
+                        "price": "(€13,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Thaise Curry",
+                "id": "6",
+                "sub_item": [
+                    {
+                        "title": "Gang Gai",
+                        "description": "Kip met rode curry , diverse goenen, peperoni en bamboescheuten in kokosmelk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gang Khow Wahn Gai",
+                        "description": "Kip met groen currypasta, verschillende groenten, aubergine, bamboescheutn en pepperoni gemaakt in kokomelk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Panang Gai",
+                        "description": "Kip met panang curry pasta, diverse groenten, pindanoten en holapa 'thaise basilicum' gemaakt in kokos melk",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Gang Khow Wahn Gung",
+                        "description": "Scampi met groene curry pasta en diverse groenten, aubergine en bamboescheuten gemaakt in kokos melk",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Gang Nua",
+                        "description": "Rund met rode curry pasta, diverse groenten, peperoni en bamboescheuten gemaakt in kokosmelk",
+                        "price": "(€9,80)"
+                    },
+                    {
+                        "title": "Panang Nua",
+                        "description": "Rundvlees met panang curry pasta, diverse groenten, pindanoten en holapa gemaakt in kokos melk",
+                        "price": "(€9,80)"
+                    },
+                    {
+                        "title": "The Vegetabke Curry",
+                        "description": "Keuze uit rode, groene of panang curry saus / chose between red, green or panang curry saus. Diverse groenten zoals broccoli, bamboescheuten, aubergine, baby mais, paprika, peperoni en courgette gemaakt in kokos melk",
+                        "price": "(€9,00)"
+                    },
+                    {
+                        "title": "Gaen Massaman: Chicken / Beef or Lamb / Prawn",
+                        "description": "Keuze uit scampi of verschillende soorten vlees/choose between scampi or different meat pikante geurige curry met paprika, wortel, aardappel, ui en pinda noten",
+                        "price": "(€9,80) / (€10,80) / (€13,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Asian Ribs",
+                "id": "7",
+                "sub_item": [
+                    {
+                        "title": "Natural without any saouce",
+                        "price": "(€14,00)"
+                    },
+                    {
+                        "title": "Hot and Spicy sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Sweet and Chilly sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Barbecque sauce",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Honey sauce",
+                        "price": "(€15,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Nepalese/Indian",
+                "id": "8",
+                "sub_item": [
+                    {
+                        "title": "Chicken Masala",
+                        "description": "Malse stuekjes kip met ui groene pepers en cashewnoten gemaakt in masala saus",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Scampi or Prawn Masala",
+                        "description": "Scampi met ui, groene pepers en cashewonten gemaakt in masala saus",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Vis Curry",
+                        "description": "Zalm met ui, tomaten koriander, peper, citroen gemaakt in curry saus",
+                        "price": "(€12,50)"
+                    },
+                    {
+                        "title": "Lamb Curry",
+                        "description": "Malse stukjes lamb gemaakt in tomaten saus met ui, look, gembr en speciale curry kruiden",
+                        "price": "(€10,20)"
+                    },
+                    {
+                        "title": "Vegetable Curry",
+                        "description": "Diverse groenten klaargemaakt op nepalese wijze",
+                        "price": "(€8,80)"
+                    },
+                    {
+                        "title": "Palak Paneer",
+                        "description": "Spinaizie met uin, look, tomaten, peper gemaakt in indian kruiden",
+                        "price": "(€9,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wok",
+                "id": "9",
+                "sub_item": [
+                    {
+                        "title": "Groenten",
+                        "description": "All wokken worden gesserveerd met diverse groenten, huisgemaakt saus en keuze uit noedels of rijst pikant mogelijk op vraag",
+                        "price": "(€8,30)"
+                    },
+                    {
+                        "title": "Varkenvlees",
+                        "description": "All wokken worden gesserveerd met diverse groenten, huisgemaakt saus en keuze uit noedels of rijst pikant mogelijk op vraag",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Kip",
+                        "description": "All wokken worden gesserveerd met diverse groenten, huisgemaakt saus en keuze uit noedels of rijst pikant mogelijk op vraag",
+                        "price": "(€9,50)"
+                    },
+                    {
+                        "title": "Scampi",
+                        "description": "All wokken worden gesserveerd met diverse groenten, huisgemaakt saus en keuze uit noedels of rijst pikant mogelijk op vraag",
+                        "price": "(€13,00)"
+                    },
+                    {
+                        "title": "Rundvlees",
+                        "description": "All wokken worden gesserveerd met diverse groenten, huisgemaakt saus en keuze uit noedels of rijst pikant mogelijk op vraag",
+                        "price": "(€9,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Dessert",
+                "id": "10",
+                "sub_item": [
+                    {
+                        "title": "Tempura Pineapple",
+                        "description": "Gefrituurde ananas met vanille-ijs en honing",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Honey Banana",
+                        "description": "Gefrituurde banaan met vanilla- ijs en honeing",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Tempura ijs",
+                        "description": "Gefrituurde ijs met chocolade saus",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Japanese ijs",
+                        "description": "Drie bollen ijs vanille, groene thee en black sesame",
+                        "price": "(€6,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Frisdranken",
+                "id": "11",
+                "sub_item": [
+                    {
+                        "title": "Coca - cola",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Coca - cola light, zero",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Fanta",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Ice Tea",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Schweppes Tonic / Agrum",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Appelsap",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Appelsiensap",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid Apple Kersen",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Minute Maid ACE MultiVit.",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Fristi",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Chaudfontaine Bruis 25cl",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 25cl",
+                        "price": "(€2,10)"
+                    },
+                    {
+                        "title": "Chaudfontiane Bruis 50cl",
+                        "price": "(€4,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 50cl",
+                        "price": "(€4,10)"
+                    },
+                    {
+                        "title": "Chaudfontaine Bruis 1ltr",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Chaudfontaine Plat 1ltr",
+                        "price": "(€7,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Warm Dranken",
+                "id": "12",
+                "sub_item": [
+                    {
+                        "title": "Coffee",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Tea",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Jasmine Tea",
+                        "price": "(€2,60)"
+                    },
+                    {
+                        "title": "Japanese Green Tea",
+                        "price": "(€2,60)"
+                    },
+                    {
+                        "title": "Nepalese Tea with herbs",
+                        "price": "(€2,80)"
+                    }
+                ]
+            },
+            {
+                "item": "Healthy Dranken",
+                "id": "13",
+                "sub_item": [
+                    {
+                        "title": "Tao hydration",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao energy",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao vitality",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Tao serenity",
+                        "price": "(€2,20)"
+                    }
+                ]
+            },
+            {
+                "item": "Bieren",
+                "id": "14",
+                "sub_item": [
+                    {
+                        "title": "Carlsberg",
+                        "price": "(€2,80)"
+                    },
+                    {
+                        "title": "Beer",
+                        "price": "(€2,20)"
+                    },
+                    {
+                        "title": "Duvel",
+                        "price": "(€3,40)"
+                    },
+                    {
+                        "title": "Leffe Blond",
+                        "price": "(€3,40)"
+                    },
+                    {
+                        "title": "Chimay Blauw 'donker'",
+                        "price": "(€3,60)"
+                    },
+                    {
+                        "title": "Karmeliet",
+                        "price": "(€3,50)"
+                    },
+                    {
+                        "title": "Kriek Belle Vue La",
+                        "price": "(€2,30)"
+                    },
+                    {
+                        "title": "Westmalle Tripel",
+                        "price": "(€3,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Aziatische Beer",
+                "id": "15",
+                "sub_item": [
+                    {
+                        "title": "Japanese 'Ashai'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Thaise 'Singha'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Chinese 'Tsingtao'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Philippine 'Red Horse'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Korean 'Hite'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Vietnaam 'Halida'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Indian 'King-Fisher'",
+                        "price": "(€3,00)"
+                    },
+                    {
+                        "title": "Nepalese 'Gorkha'",
+                        "price": "(€3,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wijnen",
+                "id": "16",
+                "sub_item": [
+                    {
+                        "title": "Huis rode wijn",
+                        "description": "Granacha Terrai Tinto 75cl 2012 SC ----Spanje",
+                        "price": "Glass(€3,30) / Quarter(€5,70) / Half(€11,00) / Bottle(€16,00)"
+                    },
+                    {
+                        "title": "Huis witte wijn",
+                        "description": "Granacha Terrai Tinto 75cl 2012 SC ----Spanje",
+                        "price": "Glass(€3,30) / Quarter(€5,70) / Half(€11,00) / Bottle(€16,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Exclusieve wijnen",
+                "id": "17",
+                "sub_item": [
+                    {
+                        "title": "Exclusieve Rode Wijnen",
+                        "description": "Kleine Rust Rood 2012 'South Africa'",
+                        "price": "Per Bottle(€20,00)"
+                    },
+                    {
+                        "title": "Exclusieve Rode Wijnen",
+                        "description": "Cabernet Saucugnon Classic Casas Patronales 2008 'Chile'",
+                        "price": "Per Bottle(€20,50)"
+                    },
+                    {
+                        "title": "Exclusieve Witte Wijnen",
+                        "description": "Kleine Rust wit 2013 'South Africa'",
+                        "price": "Per Bottle(€20,00)"
+                    },
+                    {
+                        "title": "Exclusieve Witte Wijnen",
+                        "description": "Chardonnay Classic Casas Paronales 2008 'Chile'",
+                        "price": "Per Bottle(€20,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Cava",
+                "id": "18",
+                "sub_item": [
+                    {
+                        "title": "Glass",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Bottle",
+                        "price": "(€21,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Wok To Go",
+                "id": "19",
+                "sub_item": [
+                    {
+                        "title": "Wok To Go Groenten",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Wok To Go Varkensvlees",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Wok To Go Kip",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Wok To Go Rund",
+                        "price": "(€6,00)"
+                    }
+                ]
+            }
+        ]
+    }
+}

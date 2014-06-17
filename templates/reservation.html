@@ -1,0 +1,84 @@
+<div class="reservation">
+    <fieldset class="container reservation-form">
+        <legend>{{fields[language].title}}</legend>
+        <form class="css-form" name="reservaitonForm" novalidate>
+            <div class="form-group has-feedback">
+                <input type="text" id="name" class="form-control" name="gName" ng-model="guest.name" placeholder="{{fields[language].name}}" value="{{guest.name}}" required>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gName.$dirty && reservaitonForm.gName.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gName.$dirty && reservaitonForm.gName.$invalid) && guest.name"></span>
+            </div>
+            <div ng-show="reservaitonForm.gName.$dirty && reservaitonForm.gName.$invalid" class="error-message bg-danger">Error:
+                <span ng-show="reservaitonForm.gName.$error.required">{{nameErr[language]}}</span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" class="form-control datepicker" id="date" name="gDate" ng-model="guest.date" placeholder="MM/DD/YYYY" value="{{guest.date}}" required date>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gDate.$dirty && reservaitonForm.gDate.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gDate.$dirty && reservaitonForm.gDate.$invalid) && guest.date"></span>
+            </div>
+            <div ng-show="reservaitonForm.gDate.$dirty && reservaitonForm.gDate.$invalid" class="error-message bg-danger">Error:
+                <span id="dateErrMsg">{{dateErrMsg}} <span class="text-muted">{{dateErrTry}}</span></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" class="form-control" id="time" name="gTime" ng-model="guest.time" placeholder="{{fields[language].reservation_time}}" value="{{guest.time}}" required time>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gTime.$dirty && reservaitonForm.gTime.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gTime.$dirty && reservaitonForm.gTime.$invalid) && guest.time"></span>
+            </div>
+            <div ng-show="reservaitonForm.gTime.$dirty && reservaitonForm.gTime.$invalid" class="error-message bg-danger">Error:
+                <span id="timeErrMsg">{{timeErrMsg}} <span class="text-muted">{{timeErrTry}}</span></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" class="form-control" id="guests" name="gNum" ng-model="guest.num" placeholder="{{fields[language].total_guests}}" value="{{guest.num}}" required integer>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gNum.$dirty && reservaitonForm.gNum.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gNum.$dirty && reservaitonForm.gNum.$invalid) && guest.num"></span>
+            </div>
+            <div ng-show="reservaitonForm.gNum.$dirty && reservaitonForm.gNum.$invalid" class="error-message bg-danger">Error:
+                <span id="guestsErrMsg">{{guestsErrMsg}} <span class="text-muted">{{guestsErrTry}}</span></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" id="phone" class="form-control" name="gPhone" ng-model="guest.phone" placeholder="{{fields[language].phone_number}}" value="{{guest.phone}}" required phone>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gPhone.$dirty && reservaitonForm.gPhone.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gPhone.$dirty && reservaitonForm.gPhone.$invalid) && guest.phone"></span>
+            </div>
+            <div ng-show="reservaitonForm.gPhone.$dirty && reservaitonForm.gPhone.$invalid" class="error-message bg-danger">Error:
+                <span id="phoneErrMsg">{{phoneErrMsg}} <span class="text-muted">{{phoneErrTry}}</span></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="email" id="email" class="form-control" name="gEmail" ng-model="guest.email" placeholder="Email" value="{{guest.email}}" required>
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback" ng-show="reservaitonForm.gEmail.$dirty && reservaitonForm.gEmail.$invalid"></span>
+                <span class="glyphicon glyphicon-ok form-control-feedback" ng-show="!(reservaitonForm.gEmail.$dirty && reservaitonForm.gEmail.$invalid) && guest.email"></span>
+            </div>
+            <div ng-show="reservaitonForm.gEmail.$dirty && reservaitonForm.gEmail.$invalid" class="error-message bg-danger">Error:
+                <span ng-show="reservaitonForm.gEmail.$error.required">{{emailErr.empty[language]}} <span class="text-muted">{{emailErr.try[language]}}</span></span>
+                <span ng-show="reservaitonForm.gEmail.$error.email">{{emailErr.invalid[language]}} <span class="text-muted">{{emailErr.try[language]}}</span></span>
+            </div>
+            <div class="form-group">
+                <textarea id="message" class="form-control" ng-model="guest.info" placeholder="{{fields[language].extra_info}}">{{guest.info}}</textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary" ng-click="reserve(guest)" ng-disabled="reservaitonForm.$invalid || isUnchanged(user)">{{fields[language].btn}}</button>
+            </div>
+        </form>
+    </fieldset>
+    <script>
+                if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+                    $('.reservation').css('background-attachment', 'scroll');
+                };
+                var dateToday = new Date();
+                $(function() {
+                    $(".datepicker").datepicker({
+                        showButtonPanel: true,
+                        showOtherMonths: true,
+                        selectOtherMonths: true,
+                        minDate: dateToday
+                    });
+                    $(".datepicker").datepicker("option", "showAnim", "drop");
+                });
+
+                // Select the target element and the top offset from it
+                var targetValue = $('body').offset().top;
+
+                // Animate the scrollTop property of html element from its current position to targetValue
+                $('html,body').animate({scrollTop: targetValue}, 'slow');
+    </script>
+</div>
+

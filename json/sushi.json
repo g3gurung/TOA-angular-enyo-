@@ -1,0 +1,757 @@
+{
+    "DU": {
+        "menu": [
+            {
+                "item": "Apperietieven",
+                "id": "1",
+                "sub_item": [
+                    {
+                        "title": "Lychee",
+                        "price": "(€3,20)"
+                    },
+                    {
+                        "title": "Proto Rood/Wit",
+                        "price": "(€3,70)"
+                    },
+                    {
+                        "title": "Martini Rood/Wit",
+                        "price": "(€3,70)"
+                    },
+                    {
+                        "title": "Ricard",
+                        "price": "(€5,20)"
+                    },
+                    {
+                        "title": "Campari Orange/Tonic",
+                        "price": "(€6,40)"
+                    },
+                    {
+                        "title": "Kir",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Cava",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Pisang Ambon met Orange",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Grand Marnier/Cointreau",
+                        "price": "(€5,50)"
+                    },
+                    {
+                        "title": "Disarrono",
+                        "price": "(€5,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Alcohols",
+                "id": "2",
+                "sub_item": [
+                    {
+                        "title": "J.W. Red",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "J.W. Black",
+                        "price": "(€6,00)"
+                    },
+                    {
+                        "title": "Jack Daniels",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "J&B",
+                        "price": "(€4,50)"
+                    },
+                    {
+                        "title": "Cognac Vsop",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Chivas Regal",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Japanese Sake",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Huis wijn Rood/Wit (Glass)",
+                        "price": "(€3,50)"
+                    },
+                    {
+                        "title": "Huis wijn Rood/Wit (Boottle)",
+                        "price": "(€15,00)"
+                    },
+                    {
+                        "title": "Gin Tonic",
+                        "price": "(€6,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Bier",
+                "id": "3",
+                "sub_item": [
+                    {
+                        "title": "Ashai Bier",
+                        "price": "(€4,20)"
+                    },
+                    {
+                        "title": "Kirin Bier",
+                        "price": "(€4,20)"
+                    },
+                    {
+                        "title": "Sapporo",
+                        "price": "(€4,20)"
+                    },
+                    {
+                        "title": "Jupiler",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Duvel",
+                        "price": "(€3,50)"
+                    },
+                    {
+                        "title": "Hoegarden",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Leffe Blond/Bruin",
+                        "price": "(€3,50)"
+                    },
+                    {
+                        "title": "Westmal Dubbel/Triple",
+                        "price": "(€3,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Frisdranken",
+                "id": "4",
+                "sub_item": [
+                    {
+                        "title": "Coco Cola/Light",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Fruit Sap Orange",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Ice Tea",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Sprite",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Fanta",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Tonic",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Water Plat",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Water Bruis",
+                        "price": "(€2,00)"
+                    },
+                    {
+                        "title": "Water Plat 50cl",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Water Bruis 50cl",
+                        "price": "(€5,00)"
+                    },
+                    {
+                        "title": "Water Plat 1L",
+                        "price": "(€7,00)"
+                    },
+                    {
+                        "title": "Water Bruis 1L",
+                        "price": "(€7,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Warme Dranken",
+                "id": "5",
+                "sub_item": [
+                    {
+                        "title": "Koffie",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Thee Melk/Citron",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Jasmin Thee Groot",
+                        "price": "(€5,50)"
+                    },
+                    {
+                        "title": "Groen Thee",
+                        "price": "(€2,50)"
+                    },
+                    {
+                        "title": "Vers Munt Thee",
+                        "price": "(€3,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Dessert",
+                "id": "6",
+                "sub_item": [
+                    {
+                        "title": "Gebaken Ijs",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Fukumi Japanese Ijs",
+                        "price": "(€6,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Bubbles",
+                "id": "7",
+                "sub_item": [
+                    {
+                        "title": "Papet del Mas",
+                        "price": "Glas(€5,00) Fles(€20,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Huiswijn",
+                "id": "8",
+                "sub_item": [
+                    {
+                        "title": "Wit",
+                        "description": "2011 Casa Santiago, sauvignon, Chili",
+                        "price": "Glas(€3,50) Fles(€15,00)"
+                    },
+                    {
+                        "title": "Rosé",
+                        "description": "2011 Casa Santiago, cabernet sauvignon, Chili",
+                        "price": "Glas(€3,50) Fles(€15,00)"
+                    },
+                    {
+                        "title": "Rood",
+                        "description": "2011 Casa Santiago, cabernet sauvignon, Chili",
+                        "price": "Glas(€3,50) Fles(€15,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Suggestiewijnen",
+                "id": "9",
+                "sub_item": [
+                    {
+                        "title": "Wit",
+                        "descr_title": "2010 Château Brondelle 'Cadet' Graves",
+                        "description": "Bordeaux, Frankrijk, Evenwichtige en verfijnde blend van sauvignon en sémillion. Citrus in de smaak en een minerale en verfrissende afdronk. Ideaal bij sushi of andere fijne visgerechten.",
+                        "price": "(€23,00) | (€26,00)",
+                        "anoth_descr_title": "2010 Weingut H. Boch, Riesling 'Apotheke' Kabinett",
+                        "anoth_description": "Duitsland, Mosel, Riesling koning der druiven ! Exotisch fruit, fris maar vet karakter. Stevige, minerale afdronk die lekker blijft nazinderen. Laat uw zintuigen verwennen !"
+                    },
+                    {
+                        "title": "Rood",
+                        "descr_title": "2009 Château Brondelle 'Cadet' Graves",
+                        "description": "Bordeaux, Frankrijk, Mooi terroirgedreven nues, mond vol rode bosvruchten en een evenwichtige, droge finale, Klassieker met klasse !",
+                        "price": "(€23,00) | (€26,00)",
+                        "anoth_descr_title": "2010 IZIKO TOP LINE, Shiraz Pinotage Mourvedre",
+                        "anoth_description": "Paarl, Donker bosfruit (zwarte bessen en braambessen)en kruiden springen uit het glas. Mooie concentrate, volle maar zachte afdronk. Uitgebalanceerde blend !"
+                    }
+                ]
+            },
+            {
+                "item": "Soepen",
+                "id": "10",
+                "sub_item": [
+                    {
+                        "title": "Miso Soep",
+                        "description": "Op basis van Soyaboonpasta",
+                        "price": "Klein(€3,00) Groot(€5,50)"
+                    },
+                    {
+                        "title": "Sumashi Soep",
+                        "description": "Vissoepmet tofu, Zeevruchten",
+                        "price": "Klein(€5,50) Groot(€10,00)"
+                    },
+                    {
+                        "title": "Gyoza soep",
+                        "description": "Japanse gyoze met groenten",
+                        "price": "Klein(€4,50) Groot(€8,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Salade",
+                "id": "11",
+                "sub_item": [
+                    {
+                        "title": "Kanikama salad",
+                        "description": "Kanikama, tempuraschijven, massago, pikante mayonaise en scampi",
+                        "price": "(€8,50)"
+                    },
+                    {
+                        "title": "House salad",
+                        "description": "Lettus, komkommer, tomaat, wortel met het Japanesegingerdressing",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Sea Weed Salad",
+                        "description": "Mengeling met overzeese onkruid en Japanese salade met punzu saus",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Marined tuna salad",
+                        "description": "Gemarinet tonijn met koriander, pipajuin en looksause",
+                        "price": "(€7,50)"
+                    },
+                    {
+                        "title": "Tuna Avocado Salad",
+                        "description": "Gemarinet tonijn met avocado",
+                        "price": "(€8,50)"
+                    },
+                    {
+                        "title": "Zalm crispy salad",
+                        "description": "Zalm pikante mayonaise, massago en tempura",
+                        "price": "(€6,50)"
+                    },
+                    {
+                        "title": "Sea Food Salad",
+                        "description": "Salade met ass ortiment van sashimi en zeevruchten",
+                        "price": "(€12,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Gyoza",
+                "id": "12",
+                "sub_item": [
+                    {
+                        "title": "Gyoza chicken",
+                        "price": "6 stuks(€7,50) 12 stuks(€13,00)"
+                    },
+                    {
+                        "title": "Gyoza Vegetarisch Dim-Sum",
+                        "price": "6 stuks(€6,50) 12 stuks(€12,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Dim-Sum",
+                "id": "13",
+                "sub_item": [
+                    {
+                        "title": "Mix Dim-Sum",
+                        "price": "6 stuks(€6,50) 12 stuks(€13,00)"
+                    },
+                    {
+                        "title": "Vegetarisch Dim-Sum",
+                        "price": "6 stuks(€6,00) 12 stuks(€12,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Sushi Hoso Maki",
+                "id": "14",
+                "sub_item": [
+                    {
+                        "title": "Hoso Scampi",
+                        "price": "8 stuks(€4,50)"
+                    },
+                    {
+                        "title": "Komkomer",
+                        "price": "8 stuks(€3,50)"
+                    },
+                    {
+                        "title": "Avocado",
+                        "price": "8 stuks(€3,50)"
+                    },
+                    {
+                        "title": "Tamago",
+                        "price": "8 stuks(€3,00)"
+                    },
+                    {
+                        "title": "Oshinko",
+                        "price": "8 stuks(€3,00)"
+                    },
+                    {
+                        "title": "Hoso Tonijn",
+                        "price": "8 stuks(€5,50)"
+                    },
+                    {
+                        "title": "Hoso Zalm",
+                        "price": "8 stuks(€5,00)"
+                    },
+                    {
+                        "title": "Pikante Tonijn",
+                        "price": "8 stuks(€6,50)"
+                    },
+                    {
+                        "title": "Pikante Zalm",
+                        "price": "8 stuks(€6,00)"
+                    },
+                    {
+                        "title": "Hotate Spicy",
+                        "price": "8 stuks(€6,50)"
+                    },
+                    {
+                        "title": "Tonijn & Avocado",
+                        "price": "8 stuks(€6,50)"
+                    },
+                    {
+                        "title": "Zalm & Avocado",
+                        "price": "8 stuks(€6,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Tempura",
+                "id": "15",
+                "sub_item": [
+                    {
+                        "title": "Ebi Tempura",
+                        "description": "Scampi met Japanse groenten",
+                        "price": "Klein(€6,50) Groot(€12,50)"
+                    },
+                    {
+                        "title": "Ebi Fried",
+                        "description": "4 stuks grefrituurde scampi met saus naar keuze",
+                        "price": "Klein(€7,00) Groot(€13,50)"
+                    },
+                    {
+                        "title": "Yashai Tempura",
+                        "description": "Gefruituurde Japanse assortiment groenten",
+                        "price":"Klein(€5,50) Groot(€10,50)"
+                    },
+                    {
+                        "title": "Kani kara age",
+                        "description": "Gefrituurde zachte shell krab met punzu of tempura saus",
+                        "price":"(€10,50)"
+                    },
+                    {
+                        "title": "Tmt",
+                        "description": "Makitempura met tonijn en tempurasaus",
+                        "price":"(€6,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Nigiri(2 stuks) / Shashimi(4 stuks)",
+                "id": "16",
+                "sub_item": [
+                    {
+                        "title": "Maguro",
+                        "description": "Tonijn",
+                        "price":"(€4,50)"
+                    },
+                    {
+                        "title": "Sake",
+                        "description": "Zalm",
+                        "price":"(€3,50)"
+                    },
+                    {
+                        "title": "Tai",
+                        "description": "Tilapia",
+                        "price":"(€3,50)"
+                    },
+                    {
+                        "title": "Ika",
+                        "description": "Inktvis",
+                        "price":"(€3,00)"
+                    },
+                    {
+                        "title": "Tako",
+                        "description": "Octopus",
+                        "price":"(€3,00)"
+                    },
+                    {
+                        "title": "Ebi",
+                        "description": "Scampi",
+                        "price":"(€4,00)"
+                    },
+                    {
+                        "title": "Tobico",
+                        "description": "Kaviaar",
+                        "price":"(€5,00)"
+                    },
+                    {
+                        "title": "Massago",
+                        "description": "Orange Kaviaar",
+                        "price":"(€4,50)"
+                    },
+                    {
+                        "title": "Tamago",
+                        "description": "Japanse Omelette/Egg cluster",
+                        "price":"(€3,00)"
+                    },
+                    {
+                        "title": "Kani-Kama",
+                        "description": "Batonnets de carbe / Krabstuk",
+                        "price":"(€3,00)"
+                    },
+                    {
+                        "title": "Unagi",
+                        "description": "Zoete Waterpaling",
+                        "price":"(€4,00)"
+                    },
+                    {
+                        "title": "Hotate",
+                        "description": "Sint Jacobschelp",
+                        "price":"(€4,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Futo Maki",
+                "id": "17",
+                "sub_item": [
+                    {
+                        "title": "New York",
+                        "description": "Kanikama, tempura scampi, avocado en oshinko",
+                        "price":"(€5,50)"
+                    },
+                    {
+                        "title": "California",
+                        "description": "Kanikama, Tamago, avocado, massago, sla en komkommer en mayonnaise",
+                        "price":"(€7,00)"
+                    },
+                    {
+                        "title": "California BBQ",
+                        "description": "Paling getoaste zalm, Kanikama, Tamago, avocado, massago en sla",
+                        "price":"(€7,50)"
+                    },
+                    {
+                        "title": "California Special",
+                        "description": "Tonijn, zalm, kanikama, tamago, avocado, massago en sla",
+                        "price":"(€7,50)"
+                    },
+                    {
+                        "title": "California Vegetarisch",
+                        "description": "Kanikama tamagom, grmarineerde radijsm avocado, massago, sla en komkommer",
+                        "price":"(€5,00)"
+                    },
+                    {
+                        "title": "Kamikaze Zalm",
+                        "description": "Zalm, tempura krokant, avocado en pikante mayonaise",
+                        "price":"(€6,00)"
+                    },
+                    {
+                        "title": "Kamikaze Tonijn",
+                        "description": "Tonijn, tempura krokant, avocado en pikente mayonaise",
+                        "price":"(€7,00)"
+                    },
+                    {
+                        "title": "Tempura Maki",
+                        "description": "Tempura scampi, komkommer, paling saus, avocado en pikante mayonaise",
+                        "price":"(€6,50)"
+                    },
+                    {
+                        "title": "Kamikaze Vegetarisch",
+                        "description": "Komkommer, avocado, radijs, sla",
+                        "price":"(€5,00)"
+                    },
+                    {
+                        "title": "Yesai Maki",
+                        "description": "Komkommer, avocado, radijs, wortel, sla",
+                        "price":"(€5,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Chef Specialty",
+                "id": "18",
+                "sub_item": [
+                    {
+                        "title": "Maddam Lovely Unagi",
+                        "description": "Pikante krokante scampi met vulling van paling, avocado en tobico",
+                        "price":"(€11,50)"
+                    },
+                    {
+                        "title": "Crazy catterpiller with spicy tuna",
+                        "description": "Pikante kani salade vulling van pikante tonijn",
+                        "price":"(€11,00)"
+                    },
+                    {
+                        "title": "Rainbow in the sky with Avokado",
+                        "description": "Avocado en tai met vulling van california roll",
+                        "price":"(€11,50)"
+                    },
+                    {
+                        "title": "Rainbow in the sky with salmon, tuna and red snapers",
+                        "description": "Avocado, tonijn, zalm en rode snapper met vulling van california roll",
+                        "price":"(€11,50)"
+                    },
+                    {
+                        "title": "Crispy hot with salmon",
+                        "description": "Zalm, kanikamam avocado, tamago, pikente mayonaise en zoete saus",
+                        "price":"(€12,50)"
+                    },
+                    {
+                        "title": "Crispy hot with tuna",
+                        "description": "Tonijn, zeebaars, avocado en tempura",
+                        "price":"(€11,50)"
+                    },
+                    {
+                        "title": "Sexy Asian test with Soyabean curd",
+                        "description": "Pikante krokante scampi, paling, avocado met sojabean curd",
+                        "price":"(€13,50)"
+                    }
+                ]
+            },
+            {
+                "item": "Asia Test Sushi Combos",
+                "id": "19",
+                "sub_item": [
+                    {
+                        "title": "Maki Combo",
+                        "description": "8 stuks",
+                        "price":"(€10,00)"
+                    },
+                    {
+                        "title": "Sushi Combo",
+                        "description": "8 stuks, Tonijn & Zalm",
+                        "price":"(€12,00)"
+                    },
+                    {
+                        "title": "Maki Combo",
+                        "description": "12 stuks",
+                        "price":"(€15,00)"
+                    },
+                    {
+                        "title": "Maki Combo",
+                        "description": "12 stuks, Tonijn & Zalm",
+                        "price":"(€16,50)"
+                    },
+                    {
+                        "title": "Veg. Maki Combo",
+                        "description": "12 stuks",
+                        "price":"(€15,00)"
+                    },
+                    {
+                        "title": "Nigiri Combo",
+                        "description": "12 stuks",
+                        "price":"(€18,00)"
+                    },
+                    {
+                        "title": "Nigiri Combo",
+                        "description": "12 stuks, Zalm/Tonijn",
+                        "price":"(€22,00)"
+                    },
+                    {
+                        "title": "Maki & Sashimi Combo",
+                        "description": "20 stuks, 8 stuks Sashimi en 12 stuks Maki",
+                        "price":"(€22,00)"
+                    },
+                    {
+                        "title": "Sushi Maki Temaki Combo",
+                        "description": "25 stuks voor 1 persoon",
+                        "price":"(€28,00)"
+                    },
+                    {
+                        "title": "Sashimi Combo",
+                        "description": "26 stuks, 6 soorten sashimi",
+                        "price":"(€28,00)"
+                    },
+                    {
+                        "title": "Sashimi Nigri Combo",
+                        "description": "Tonijn & Zalm, 4 stuks Nigri, 8 stuks Sashimi",
+                        "price":"(€15,00)"
+                    },
+                    {
+                        "title": "Sushi Maki Boat",
+                        "description": "48 stuks",
+                        "price":"(€52,00)"
+                    },
+                    {
+                        "title": "Titanic Boat",
+                        "description": "100 stuks, voor 4 personen",
+                        "price":"(€105,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Boat Menu",
+                "id": "20",
+                "sub_item": [
+                    {
+                        "title": "Boat menu Voor 1 Persoon",
+                        "description": "Soep. Edamame of Zeewiersalad of Dimsum. Sushi, Maki Boat (25 stuks). Koffie of dessert.",
+                        "price":"(€35,00)"
+                    },
+                    {
+                        "title": "Boat menu Voor 2 Personen",
+                        "description": "Soep. Edamame of Zeewiersalad of Dimsum. Sushi, Maki Boat (48 stuks). Koffie of dessert.",
+                        "price":"(€70,00)"
+                    },
+                    {
+                        "title": "Boat menu Voor 3 Personen",
+                        "description": "Soep. Edamame of Zeewiersalad of Dimsum. Sushi, Maki Boat (70 stuks). Koffie of dessert.",
+                        "price":"(€95)"
+                    },
+                    {
+                        "title": "Boat menu Voor 4 Personen",
+                        "description": "Soep. Edamame of Zeewiersalad of Dimsum. Titanic Boat (100 stuks). Koffie of dessert.",
+                        "price":"(€120,00)"
+                    }
+                ]
+            },
+            {
+                "item": "Teriyaki",
+                "id": "21",
+                "sub_item": [
+                    {
+                        "title": "Teriyaki Eend",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€22,00)"
+                    },
+                    {
+                        "title": "Teriyaki Rund",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€22,50)"
+                    },
+                    {
+                        "title": "Teriyaki Kip",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€16,00)"
+                    },
+                    {
+                        "title": "Teriyaki Zalm",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€21,00)"
+                    },
+                    {
+                        "title": "Teriyaki Scampi",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€22,00)"
+                    },
+                    {
+                        "title": "Teriyaki Tuna",
+                        "description": "Gemengd met rijst, groenten en noedels",
+                        "price": "(€24,00)"
+                    }
+                ]
+            }
+        ]
+    },
+    "EN": {
+        
+    }
+}

@@ -1,0 +1,63 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <!--
+        <li data-target="#myCarousel" data-slide-to="0" class="active" style="margin-right: -3px"></li>
+        <li data-target="#myCarousel"  ng-repeat="n in []| range:27" data-slide-to="{{n}}"></li>
+        -->
+        
+        <li data-target="#myCarousel" data-slide-to="{{$index}}" ng-repeat="i in items" ng-class="{active : $first}"></li>
+        
+    </ol>
+    <div class="carousel-inner">
+        <!--
+        <div class="item active">
+            <span style="background: url('images/1.jpg') 50% 50% no-repeat fixed;
+                  background-size: cover;"></span>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Dish</h1>
+                    <p>Reservations can be done online</p>
+                    <p><a class="btn btn-lg btn-primary" ng-href="#/reservation" role="button">Click Here</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item" ng-repeat="n in []| range:27">
+            <span style="background: url('images/{{n + 1}}.jpg') 50% 50% no-repeat fixed;
+                  background-size: cover;"></span>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Dish</h1>
+                    <p>Reservations can be done online</p>
+                    <p><a class="btn btn-lg btn-primary" ng-href="#/reservation" role="button">Click Here</a></p>
+                </div>
+            </div>
+        </div>
+        -->
+        <div ng-repeat="i in items" ng-class="{active : $first, item: true}">
+            <span class="iphoneScroll" style="height:100%; width: 100%; background: url('images/{{i.image}}') 50% 50% no-repeat fixed;
+                  background-size: cover;"></span>
+            <div class="container">
+                <div class="carousel-caption">
+                    <!---
+                    <h1>{{i.item.dish_type}}</h1>
+                    <p>{{i.item.dish_name}}</p> -->
+                    <h1>{{i.item.dish_name}}</h1>
+                    <p><a class="btn btn-lg btn-primary" ng-href="#/{{language}}/reservation" role="button">Reserve</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" onclick="prev(event);"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" onclick="next(event);"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+<script>
+    $('.carousel').carousel({
+        interval: 3000,
+        pause: "hover",
+        cycle: true
+    });
+    if(/(iPad|iPhone|iPod)/g.test( navigator.userAgent )){
+        $('.iphoneScroll').css('background-attachment', 'scroll');
+    };
+</script>

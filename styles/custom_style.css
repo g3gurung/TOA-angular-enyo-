@@ -1,0 +1,414 @@
+ul li{
+    list-style: none;
+}
+
+.view-container, .marketing{
+    position: relative;
+}
+
+.view-container{
+    margin-bottom: 60px;
+}
+
+#toTop{
+    cursor: pointer;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    padding: 5px;
+    display: none;
+}
+
+#toTop:hover, #toTop:focus{
+    color: #2a6496;
+    text-decoration: underline;
+    background: rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+.navbar{
+    opacity: 0.8;
+}
+
+.logo{
+    position: relative;
+    top: -20px;
+}
+
+.navbar-brand{
+    padding: 5px;
+}
+
+.reservation,.survey_feedback{
+    width: 100%;
+    background: url('../images/1.jpg') 50% 50% no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 1em;
+}
+
+.survey_feedback embed {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    opacity: 0.85;
+}
+
+.survey_feedback .container {
+    padding-left: 12em;
+    padding-right: 12em;
+}
+
+.reservation-form{
+    position: relative;
+    padding: 50px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.reservation-form legend{
+    margin: 0;
+    width: 172px;
+    color: #0481b1;
+    font-size: 1.5em;
+    padding: 0 10px;
+    background: #fff;
+    -moz-border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(4, 129, 177, 0.5);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.gallery_wrapper, .menu_wrapper{
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    background: url('../images/1.jpg') 50% 50% no-repeat fixed;
+    background-size: cover;
+}
+
+.gallery_wrapper .jumbotron{
+    background: rgba(238,238,238,0.7);
+}
+
+#menu_accordion{
+    background-color: white;
+}
+
+.sub-item-sub-title{
+    display: block;
+    font-size: 0.8em;
+}
+
+.student-menu-images {
+    display: none;
+}
+
+.student-menu-images:first-of-type {
+    display: block;
+}
+
+.gallery{
+    position: relative;
+    left: 2%;
+}
+
+/*.marketing, .reservation, .reservation-form, fieldset, .css-form, .css-form div, .jumbotron, .gallery_wrapper{
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s;  Firefox 4 
+    -webkit-transition:all 0.3s;  Safari and Chrome 
+    -o-transition:all 0.3s;  Opera  
+}*/
+
+.image
+{
+    padding: 5px;
+    margin: 12px;
+    margin-bottom: 30px;	
+    border: 1px dashed black;
+    position: relative;
+    cursor: pointer;
+
+    transform:  rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+
+    transition:all 0.25s ease;
+    -moz-transition:all 0.25s ease; /* Firefox 4 */
+    -webkit-transition:all 0.25s ease; /* Safari and Chrome */
+
+
+}
+
+.image img{
+    width: 100%;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 5px;
+    border-radius: 20px;
+    margin-top: 105px;
+    margin-right: 10%;
+}
+
+.image:nth-of-type(odd)
+{
+    transform:  rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+}
+
+.image:nth-of-type(3n)
+{
+    transform:  rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+.image:nth-of-type(5n)
+{
+    transform:  rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+}
+
+.image:hover
+{
+    transform:  rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    border: 1px solid rgb(200,100,100);
+    box-shadow: 5px 5px 3px rgba(150,150,150, 0.8);
+}
+
+.bigimage, .reservation-response
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+.fullsize
+{
+    position: relative;
+
+}
+
+#lang{
+    min-width: 0px;
+}
+
+.accordion-group {
+    margin-bottom: 2px;
+    border: 1px solid grey;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: rgba(230,230,230,0.9) 50% 50% repeat-x;
+}
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.accordion-heading a{
+    color: #2a6496;
+    text-decoration: none;
+}
+
+.accordion-inner {
+    padding: 9px 15px;
+    border-top: 1px solid grey;
+}
+
+.accordion-inner ul li p{
+    font-size: 1em;
+}
+
+.sub-item-title{
+    font-weight: 900;
+}
+
+.featurette-heading{
+    margin-top: 0;
+}
+
+.angular-google-map-container{ 
+    height: 400px; 
+}
+
+
+.css-form input.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+
+.css-form input.ng-valid.ng-dirty {
+    background-color: rgba(120,250,137,0.8);
+}
+
+.has-feedback .form-control-feedback{
+    top: 0;
+    color: red;
+}
+
+.has-feedback .form-control-feedback.glyphicon-ok{
+    color: green;
+}
+
+.error-message{
+    top: -15px;
+    position: relative;
+    border-radius: 3px;
+    padding-left: 1em;
+    color: red;
+}
+
+.gallery-dish-info{
+    position: relative;
+    color: black;
+    margin-left: 10%; margin-right: 10%;
+    width: 80%; margin-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1px;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    background: rgb(225,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(225,255,255,1) 13%, rgba(225,255,255,1) 13%, rgba(225,255,255,1) 15%, rgba(225,255,255,1) 15%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(12%,rgba(225,255,255,1)), color-stop(12%,rgba(253,255,255,1)), color-stop(13%,rgba(225,255,255,1)), color-stop(13%,rgba(225,255,255,1)), color-stop(15%,rgba(225,255,255,1)), color-stop(15%,rgba(225,255,255,1)), color-stop(30%,rgba(230,248,253,1)), color-stop(54%,rgba(200,238,251,1)), color-stop(75%,rgba(190,228,248,1)), color-stop(100%,rgba(177,216,245,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 15%,rgba(225,255,255,1) 15%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 15%,rgba(225,255,255,1) 15%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 15%,rgba(225,255,255,1) 15%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 13%,rgba(225,255,255,1) 15%,rgba(225,255,255,1) 15%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+}
+
+.bigimage img{
+    margin-left: 10%; margin-right: 10%; 
+    margin-top: 100px; width: 80%;
+}
+
+.response-box{
+    position: relative;
+    top: 250px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.response-ok{
+    color: green;
+    margin: 0;
+    font-size: 3em;
+}
+
+.response-danger{
+    color: red;
+    margin: 0;
+    font-size: 3em;
+}
+
+footer p, footer a{
+    display: inline-block;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+span.response-ok, span.response-danger{
+    font-size: 5em;
+}
+
+.free-delivery{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+.free-delivery-container{
+    position: relative;
+}
+
+.offer-info{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -1000px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.offer-close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.offer-close-btn:hover{
+    color: #c7231a;
+}
+
+/* media querries*/
+@media only screen 
+and (max-width : 1200px) {
+    .gallery{
+        left: 7%;
+    }
+}
+
+@media only screen 
+and (max-width : 768px) {
+    .reservation-form{
+        padding: 10px;
+        width: 90%;
+    }
+    .gallery{
+        left: 12%;
+    }
+    .gallery-dish-info{
+        padding: 0;
+    }
+    .gallery-dish-info h2{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+    .gallery-dish-info p{
+        padding: 5px;
+    }
+    .response-box{
+        margin-left: 10%; margin-right: 10%;
+    }
+    .response-ok, .response-danger{
+        font-size: 1.5em;
+    }
+    span.response-ok, span.response-danger{
+        font-size: 4em;
+    }
+    .survey_feedback .container {
+        padding: 2em;
+    }
+}

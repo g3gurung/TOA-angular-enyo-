@@ -1,0 +1,102 @@
+{
+    "EN": [
+        {
+            "title": {
+                "bright": "Student",
+                "muted": "sushi menu"
+            },
+            "content_start": "Special student menu",
+            "content_middle": "for limited period of time. Includes",
+            "content_middle_bold": "1 SUSHI BOAT with 1 SOUP.",
+            "content_price": "Only for ",
+            "content_end": "There are two options for soup:",
+            "content_end_bold": " SUMASHI SOUP or TOM YAM GUNG",
+            "price": "€ 18,00"
+        },
+        {
+            "title":{
+                "bright": "Reservations",
+                "muted": "can be done online."
+            },
+            "content": "We will like to ask you to reserve if you are with 8 or more persons and please keep your choices upto 3 different and 1 vegetarian dish.",
+            "button": "Click Here"
+        },
+        {
+            "title":{
+                "bright": "Taste Of Asia",
+                "muted": "with Sushi and Grill."
+            },
+            "content": "Taste Of Asia is a new concept in Leuven, Belgium, with the capacity of more than 100 persons. We serve you with fresh and authentic dishes from",
+            "strong": " Thai, Chinese, Korean, Indian, Nepalese and Tibetan to Japanese Sushi",
+            "content_rem": " in a pleasant ambience."
+        },
+        {
+            "title":{
+                "bright": "Contact",
+                "muted": "Taste Of Asia."
+            },
+            "content":{
+                "hours":{
+                    "title": "Opening Hours",
+                    "days":{
+                        "weekdays": ["MON to THU", "1200-1430, 1700-2230"],
+                        "weekends": ["FRI to SUN", "1200-2230"]
+                    }
+                },
+                "address": "Brusselsestraat 42b, Leuven, Belgium.",
+                "email":["contact@tasteasia.be", "email.png"],
+                "phone": ["016 201 434", "phone.png"]
+            }
+        }
+    ],
+    "DU": [
+        {
+            "title": {
+                "bright": "Student",
+                "muted": "sushi menu"
+            },
+            "content_start": "Special student menu",
+            "content_middle": "for limited period of time. Includes",
+            "content_middle_bold": "1 SUSHI BOAT with 1 SOUP.",
+            "content_price": "Only for ",
+            "content_end": "There are two options for soup:",
+            "content_end_bold": " SUMASHI SOUP or TOM YAM GUNG",
+            "price": "€ 18,00"
+        },
+        {
+            "title":{
+                "bright": "Reservaties",
+                "muted": "kunnen online gemaakt worden."
+            },
+            "content": "Wij vragen vanaf 8 personen vooraf te reserveren en gelieve uw keuze te beperken tot 3 verschilllende gerechten +1 vegetarische gerecht.",
+            "button": "Klik Hier"
+        },
+        {
+            "title":{
+                "bright": "Taste Of Asia",
+                "muted": "met Sushi en Grill."
+            },
+            "content": "Taste Of Asia is een nieuw concept in Leuven, met een capaciteit van meer dan 100 personen. Wij serveren u met verse en authentieke gerechten van de ",
+            "strong" : "Thaise, Chinese, Koreaanse, Indiase, Nepalese, Tibetaanse tot Japanese sushi",
+            "content_rem": " in een aangename sfeer."
+        },
+        {
+            "title":{
+                "bright": "Contact",
+                "muted": "Taste Of Asia."
+            },
+            "content":{
+                "hours":{
+                    "title": "Uuren",
+                    "days":{
+                        "weekdays": ["MAAN to DON", "1200-1430, 1700-2230"],
+                        "weekends": ["VRIJ to ZON", "1200-2230"]
+                    }
+                },
+                "address": "Brusselsestraat 42b, Leuven, Belgium.",
+                "email":["contact@tasteasia.be", "email.png"],
+                "phone": ["016 201 434", "phone.png"]
+            }
+        }
+    ]
+}
